@@ -27,3 +27,7 @@ class Calculator:
     def divide(self, a, b):
         self.result = division(a, b)
         return self.result
+
+    def multiply(self, a, b):
+        self.result = multiplication(a, b)
+        return self.result

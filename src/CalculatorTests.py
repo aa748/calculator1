@@ -30,7 +30,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(calculator.divide(2, 2), 1)
         self.assertEqual(calculator.result, 1)
 
-
+    def test_multiply_method_calculator(self):
+        calculator = Calculator()
+        self.assertEqual(calculator.multiply(2, 2), 1)
+        self.assertEqual(calculator.result, 1)
 
 
 if __name__ == '__main__':
