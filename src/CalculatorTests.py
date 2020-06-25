@@ -3,7 +3,6 @@ from Calculator import Calculator
 
 
 class MyTestCase(unittest.TestCase):
-
     def test_instantiate_calculator(self):
         calculator = Calculator()
         self.assertIsInstance(calculator, Calculator)
@@ -24,6 +23,11 @@ class MyTestCase(unittest.TestCase):
     def test_subtraction_method_calculator(self):
         calculator = Calculator()
         self.assertEqual(calculator.subtract(2,2), 0)
+        self.assertEqual(calculator.result, 0)
+
+    def test_divide_method_calculator(self):
+        calculator = Calculator()
+        self.assertEqual(calculator.divide(2, 2), 0)
         self.assertEqual(calculator.result, 0)
 
 

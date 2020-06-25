@@ -7,6 +7,8 @@ def subtraction (a,b):
 def division (a, b):
         return a / b
 
+
+
 class Calculator:
     result = 0
 
