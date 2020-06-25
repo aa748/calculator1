@@ -34,3 +34,8 @@ class Calculator:
     def multiply(self, a, b):
         self.result = multiplication(a, b)
         return self.result
+
+    def squaring(self, a):
+        self.result = square(a)
+        return self.result
+
