@@ -45,3 +45,8 @@ class Calculator:
         self.result = squaring(a)
         return self.result
 
+    def rooting(self, a):
+        self.result = squareroot(a)
+        return self.result
+
+
