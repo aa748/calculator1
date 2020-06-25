@@ -27,8 +27,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_divide_method_calculator(self):
         calculator = Calculator()
-        self.assertEqual(calculator.divide(2, 2), 0)
-        self.assertEqual(calculator.result, 0)
+        self.assertEqual(calculator.divide(2, 2), 1)
+        self.assertEqual(calculator.result, 1)
 
 
 
