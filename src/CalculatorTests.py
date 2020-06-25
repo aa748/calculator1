@@ -32,8 +32,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_multiply_method_calculator(self):
         calculator = Calculator()
-        self.assertEqual(calculator.multiply(2, 2), 1)
-        self.assertEqual(calculator.result, 1)
+        self.assertEqual(calculator.multiply(2, 2), 4)
+        self.assertEqual(calculator.result, 4)
 
 
 if __name__ == '__main__':

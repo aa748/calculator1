@@ -10,6 +10,9 @@ def division (a, b):
 def multiplication (a, b):
     return a * b
 
+def square (a):
+    return a * a
+
 class Calculator:
     result = 0
 
