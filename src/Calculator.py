@@ -1,14 +1,16 @@
 import math
 
-
 def addition (a, b):
-        return a + b
+    return float(a) + float(b)
 
 def subtraction (a,b):
-        return a - b
+    a = float(a)
+    b = float(b)
+    c = b - a
+    return c
 
 def division (a, b):
-        return a // b
+    return float(b) / float(a)
 
 def multiplication (a, b):
     return a * b
