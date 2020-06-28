@@ -10,16 +10,29 @@ def subtraction (a,b):
     return c
 
 def division (a, b):
-    return float(b) / float(a)
+    x = float(b) / float(a)
+    limited_float = round(x, 9)
+    return limited_float
 
 def multiplication (a, b):
-    return a * b
+    return float(a) * float(b)
 
 def squaring (a):
-    return a * a
+    return float(a) * float(a)
 
 def squareroot (a):
-    return math.sqrt(a)
+    x = float(a)
+    y = math.sqrt(x)
+    limited_float1 = round(y, 8)
+    return limited_float1
+
+'''
+def squareroot2 (a):
+    x = float(a)
+    y = math.sqrt(x)
+    limited_float1 = round(y, 8)
+    return limited_float1
+'''
 
 class Calculator:
     result = 0
@@ -50,5 +63,12 @@ class Calculator:
     def rooting(self, a):
         self.result = squareroot(a)
         return self.result
+'''
+
+def rooting2(self, a):
+        self.result = squareroot2(a)
+        return self.result
+'''
+
 
 
